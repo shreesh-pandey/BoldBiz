@@ -166,3 +166,27 @@ footer a:hover {
 blockquote.bg-white {
   background-color: #ffffff !important;
 }
+/* Testimonials Styling */
+.testimonial {
+  transition: transform 0.3s ease;
+}
+
+.testimonial:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+  font-size: 1rem;
+  color: #444;
+}
+
+.testimonial h6 {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.testimonial small {
+  display: block;
+  color: #777;
+}

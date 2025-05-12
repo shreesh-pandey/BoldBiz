@@ -190,3 +190,32 @@ blockquote.bg-white {
   display: block;
   color: #777;
 }
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Back to Top Button */
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 20px;
+  bottom: 20px;
+  z-index: 999;
+  background: #007bff;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 24px;
+}
+
+.back-to-top.show {
+  visibility: visible;
+  opacity: 1;
+}

@@ -250,4 +250,11 @@ footer .bi {
 footer .bi:hover {
   color: #ffc107;
 }
-
+footer .copyright {
+  text-align: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #444;
+  font-size: 0.9rem;
+  color: #ccc;
+}

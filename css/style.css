@@ -258,3 +258,8 @@ footer .copyright {
   font-size: 0.9rem;
   color: #ccc;
 }
+#backToTop:focus:not(:focus-visible) {
+  outline: none !important;
+  box-shadow: none !important;
+}
+

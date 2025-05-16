@@ -209,6 +209,7 @@ html {
   height: 40px;
   border-radius: 50%;
   transition: all 0.4s;
+  box-shadow: none !important; /* REMOVE SHADOW */
 }
 
 .back-to-top i {
@@ -218,10 +219,13 @@ html {
 .back-to-top.show {
   visibility: visible;
   opacity: 1;
+  /* Removed shadow from here */
 }
+
 section {
   scroll-margin-top: 100px; /* Was 80px, now adjusted for more breathing room */
 }
+
 footer {
   background-color: #212529;
   color: #fff;
@@ -250,6 +254,7 @@ footer .bi {
 footer .bi:hover {
   color: #ffc107;
 }
+
 footer .copyright {
   text-align: center;
   margin-top: 1rem;
@@ -258,8 +263,8 @@ footer .copyright {
   font-size: 0.9rem;
   color: #ccc;
 }
+
 #backToTop:focus:not(:focus-visible) {
   outline: none !important;
   box-shadow: none !important;
 }
-

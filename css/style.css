@@ -269,5 +269,12 @@ footer .copyright {
   box-shadow: none !important;
 }
 section {
-  scroll-margin-top: 100px; /* Match your navbar height */
+  scroll-margin-top: 80px; /* Matches with navbar height */
+}
+#navbar {
+  height: 80px;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Matches with navbar height */
 }
